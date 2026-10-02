@@ -1,0 +1,64 @@
+{
+    "creds":[
+        {
+            "url":"https://site1.com",
+            "secret": { "login":"user1",  "password":"pass1" }
+        },
+        {
+            "url":"https://site2.com",
+            "secret": { "login":"user2",  "password":"pass2" }
+        },
+        {
+            "url":"https://site3.com",
+            "secret": { "login":"user3",  "password":"pass3" }
+        },
+        {
+            "url":"https://site4.com",
+            "secret": { "login":"user4",  "password":"pass4" }
+        },
+        {
+            "url":"https://site5.com",
+            "secret": { "login":"user5",  "password":"pass5" }
+        },
+        {
+            "url":"https://site6.com",
+            "secret": { "login":"user6",  "password":"pass6" }
+        },
+        {
+            "url":"https://site7.com",
+            "secret": { "login":"user7",  "password":"pass7" }
+        },
+        {
+            "url":"https://site8.com",
+            "secret": { "login":"user8",  "password":"pass8" }
+        },
+        {
+            "url":"https://site9.com",
+            "secret": { "login":"user9",  "password":"pass9" }
+        },
+        {
+            "url":"https://site10.com",
+            "secret": { "login":"user10",  "password":"pass10" }
+        },
+        {
+            "url":"https://site11.com",
+            "secret": { "login":"user11",  "password":"pass11" }
+        },
+        {
+            "url":"https://site12.com",
+            "secret": { "login":"user12",  "password":"pass12" }
+        },
+        {
+            "url":"https://site13.com",
+            "secret": { "login":"user13",  "password":"pass13" }
+        },
+        {
+            "url":"https://site14.com",
+            "secret": { "login":"user14",  "password":"pass14" }
+        },
+        {
+            "url":"https://site15.com",
+            "secret": { "login":"user15",  "password":"pass15" }
+        }
+    ]
+}
