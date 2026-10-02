@@ -13,3 +13,7 @@ cmake_install.cmake
 build.ninja
 .ninja_deps
 .ninja_log
+
+creds.json
+creds.enc
+creds_cipher.bin
