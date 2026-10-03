@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.19.0"/>
+    <errors>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;m_encLogin&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;m_encLogin&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="creditem.cpp">
+            <location file="creditem.cpp" line="16" column="5"/>
+            <symbol>m_encLogin</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;login&apos; should be passed by const reference." verbose="Parameter &apos;login&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="creditem.cpp">
+            <location file="creditem.cpp" line="13" column="41" info="Function parameter &apos;login&apos; should be passed by const reference."/>
+            <symbol>login</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;password&apos; should be passed by const reference." verbose="Parameter &apos;password&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="creditem.cpp">
+            <location file="creditem.cpp" line="13" column="56" info="Function parameter &apos;password&apos; should be passed by const reference."/>
+            <symbol>password</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isSelected&apos; is never used." verbose="The function &apos;isSelected&apos; is never used." cwe="561">
+            <location file="creditemwidget.cpp" line="99" column="22"/>
+            <symbol>isSelected</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;on_searchButton_clicked&apos; is never used." verbose="The function &apos;on_searchButton_clicked&apos; is never used." cwe="561">
+            <location file="mainwindow.cpp" line="64" column="18"/>
+            <symbol>on_searchButton_clicked</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;on_viewButton_clicked&apos; is never used." verbose="The function &apos;on_viewButton_clicked&apos; is never used." cwe="561">
+            <location file="mainwindow.cpp" line="72" column="18"/>
+            <symbol>on_viewButton_clicked</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;on_pinButton_clicked&apos; is never used." verbose="The function &apos;on_pinButton_clicked&apos; is never used." cwe="561">
+            <location file="pindialog.cpp" line="23" column="17"/>
+            <symbol>on_pinButton_clicked</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 183/975 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 183/975 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>
